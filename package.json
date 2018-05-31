@@ -5,12 +5,15 @@
   "license": "BSD-2-Clause",
   "preferGlobal": true,
   "description": "📦🐈 Fast, reliable, and secure dependency management.",
+  "resolutions": {
+    "cmd-shim": "git+https://github.com/ExE-Boss/npm-cmd-shim.git#shell/pwsh"
+  },
   "dependencies": {
     "babel-runtime": "^6.26.0",
     "bytes": "^3.0.0",
     "camelcase": "^4.0.0",
     "chalk": "^2.1.0",
-    "cmd-shim": "^2.0.1",
+    "cmd-shim": "git+https://github.com/ExE-Boss/npm-cmd-shim.git#shell/pwsh",
     "commander": "^2.9.0",
     "death": "^1.0.0",
     "debug": "^3.0.0",
